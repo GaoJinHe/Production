@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+#headline {
+	height: 300px;
+	width: 100%;
+	min-width: 1263px;
+	background: linear-gradient(to right bottom,rgba(0,0,0,7),rgba(255,255,255,0)),url(../img/headline.jpg) no-repeat center;
+	position: relative;
+}
+#headline .center {
+	height: 300px;
+	width: 1263px;
+	margin: 0 auto;
+}
+#headline .center hgroup {
+	padding: 100px 0 0 50px;
+}
+#headline h2 {
+	font-size: 36px; 
+	color: #eee;
+	letter-spacing: 1px;
+}
+#headline h3 {
+	font-size: 20px; 
+	color: #eee;
+	letter-spacing: 1px;
+}
+#container {
+	width: 1263px;
+	margin: 30px auto;
+}
+#container .sidebar{
+	width: 340px;
+	float: right;
+}
+#container .sidebox {
+	border: 1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#container .sidebox h2 {
+	text-align: left;
+	font-weight: normal;
+	color: #666;
+	background: #fafafa;
+	font-size: 20px;
+	line-height: 40px;
+	height: 40px;
+	text-indent: 8px;
+	letter-spacing: 1px;
+}
+#container .tag {
+	padding: 10px 0;
+}
+#container .tag li {
+	display: inline-block;   /*如果设置成做浮动让li排好队，则会跳出原有div的区域。*/
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+	width: 100px;
+	background: #eee;
+}
+#container .tag a {
+	color: #999;
+	display: block;  /*对li设置宽高，对其里面的a设置成块级元素，实现区块点击有效。*/
+}
+#container .list{
+	width: 910px;
+}
+#container figure{
+	display:inline-block;
+	padding: 4px;
+	color: #666;
+}
+#container .treasure{
+	margin: 10px 0;
+}
+#container .treasure a{
+	width: 150px;
+	height: 40px;
+	color: #999;
+	line-height: 40px;
+	margin: 2px;
+	text-align: left;
+	text-indent: 32px;
+	display: inline-block;
+}
+#container .treasure a.trea1{
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+}   /*设置成10px则相对于背景框向右移动10px;*/
+#container .treasure a.trea2{
+	background: #eee url(../img/trea2.png) no-repeat 10px center;
+}
+#container .treasure a.trea3{
+	background: #eee url(../img/trea3.png) no-repeat 10px center;
+}
+#container .treasure a.trea4{
+	background: #eee url(../img/trea4.png) no-repeat 10px center;
+}
+#container .infor{
+	background: #eee;
+	height: 45px;
+	line-height: 45px;
+	margin: 0 0 20px 0;
+}
+#container .information .left{
+	display: inline-block;
+	float: left;
+}
+#container .information .left li{
+	display: inline-block;
+	width: 150px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#container .left a{
+	color: #333;
+	padding: 0 40px;
+	display: block;
+}
+#container .left a.selected{
+	border-top: 3px solid green;
+	background: #fff;
+}
+#container .right{
+	display: inline-block;
+	float: right;
+}
+#container .right li{
+	text-align: center;
+	display: inline-block;
+	margin: 0 5px;
+	height: 45px;
+	line-height: 45px;
+}
+#container .right a{
+	color: #666;
+	padding: 3px 8px;
+}
+#container .right a.selected,#container .right a:hover{
+	background: green;
+	color: #fff;
+}
+#container .tour {
+	padding: 0;
+	margin: 0 0 20px 0;
+	width: 910px;
+	border: 1px solid #eee;
+	position: relative;
+}
+#container .tour img{
+	float: left;
+	padding: 4px;
+	margin: 0 20px 0 0;
+}
+#container .tour h2{
+	font-weight: normal;
+	color: #000;
+	letter-spacing: 1px;
+	margin: 10px 0 20px 0;
+}
+#container .tour h3{
+	font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: 1.5px;
+	font-weight: normal;
+}
+

@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+body,h1,ul,li,a,h2,h3 {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body {
+	background-color: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;
+}
+.none {
+    display: none;
+}
+#header {
+	width: 100%;
+	min-width: 1263px;
+	height:70px;
+	background-color: #333;
+	position: relative;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+#header .center {
+	margin: 0 auto;
+	height: 70px;
+	width: 1263px;
+}
+#header .center h1 {
+	text-indent: -9999px;
+	height: 70px;
+	width: 240px;
+	background: url(../img/logo.png) no-repeat;
+	float: left;
+}
+#header .link {
+	float: right;
+	width: 650px;
+	height: 70px;
+	line-height: 70px;
+}
+#header .link ul {
+	list-style: none;
+}
+#header .link li {
+	float: left;
+/*	background: red;*/
+}
+#header .link a {
+	display: block;
+	text-decoration: none;
+	color: #eee;
+	width: 100px;
+	height: 70px;
+    text-align: center;
+}
+#header .link a:hover,#header .link a.active {
+	background: #000;
+}
+#footer {
+	height: 360px;
+	background: #222;
+	position: relative;
+	clear: both;
+	top: 20px;
+}
+#footer .top {
+    width: 1263px;
+	height: 280px;
+	margin: 0 auto;
+}
+#footer .top .block {
+	width: 410px;
+	height: 280px;
+	display: inline-block;
+	vertical-align: top;
+}
+#footer h2 {
+	color: #ccc;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+}
+#footer hr {
+	width: 90%;
+	border: 1px dashed #333;
+}
+#footer li {
+    list-style: none;
+    padding: 12px 0 0 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+#footer a {
+	text-decoration: none;
+	color: #777;
+}
+#footer .bottom {
+	height: 80px;
+	background: #000;
+	color: #777;
+	line-height: 80px;
+	text-align: center;
+}
